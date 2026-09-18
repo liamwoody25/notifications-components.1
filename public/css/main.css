@@ -1,0 +1,189 @@
+/**** typeography *****/
+
+* {
+  font-family: 'Plus Jakatar sans', sans-serif;
+}
+
+p {
+  font-size: 14px;
+  margin: 0;
+  line-height: 18px;
+}
+
+/**** typeography *****/
+
+
+
+
+/**** components *****/
+
+a {
+  text-decoration: none;
+}
+
+.card-link {
+  text-decoration: none;
+  color: #0a317b;
+  font-size: 14px;
+  font-weight: bold;
+} 
+
+.header-unread {
+  text-decoration: none;
+  color: #5e6778;
+}
+
+span {
+  margin: 0;
+}
+
+.notify-badge {
+  background-color: #0a317b;
+  width: 32px;
+  height: 25px;
+  color: #fff;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.unmarked-circle {
+  display: flex;
+  width: 8px;
+  height: 8px;
+  background-color: #F65552;
+  border-radius: 50px;
+}
+
+.unread {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+/**** components *****/
+
+
+
+
+/**** body *****/
+
+.container {
+  width: 91%;
+  margin: 0 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/**** body *****/
+
+
+
+
+/**** notify header *****/
+
+header {
+  margin-top: 24px;
+}
+
+.header-content {
+   display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.title-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+.notify-title {
+  margin: 0;
+}
+
+/**** notify header *****/
+
+
+
+
+/**** main section *****/
+
+.notifications {
+  margin-top: 24px;
+}
+
+.top-notifications {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.notify-card-marked {
+  background-color: #dde7ee;
+  padding: 8px 16px;
+  border-radius: 8px;
+  gap: 16px;
+  width: 100%;
+  box-shadow: 0px 1px 8px -5px black;
+}
+
+.notify-card-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.card-content {
+  display: flex;
+  align-items: start;
+  gap: 16px;
+}
+
+.notify-card {
+  background-color: transparent;
+  padding: 8px 16px;
+  width: 91%;
+  border-radius: 8px;
+  gap: 16px;
+}
+
+.card-body {
+  flex-wrap: nowrap;
+  width: 100%;
+}
+
+.card-title {
+  font-weight: 700;
+  margin-right: 8px;
+  font-size: 14px;
+  color: #1C202B;
+}
+
+.notify-avatar {
+  width: 39px;
+}
+
+
+.notify-time {
+  letter-spacing: 0px;
+  margin-top: 8px;
+  color: #5E6778;
+  font-size: 14px;
+}
+
+.notify-box {
+  border: 1px solid #DDE7EE;
+  padding: 16px;
+  border-radius: 5px;
+  margin-top: 8px;
+  margin-left: -1px;
+}
+
+/**** main section *****/
+
+
