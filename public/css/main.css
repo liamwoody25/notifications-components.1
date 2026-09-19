@@ -4,10 +4,26 @@
   font-family: 'Plus Jakatar sans', sans-serif;
 }
 
+h2 {
+  font-size: 20px;
+  color: #1C202B;
+  margin: 0;
+}
+
+h3 {
+  font-weight: 700;
+  margin-right: 8px;
+  font-size: 14px;
+  color: #1C202B;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 p {
   font-size: 14px;
   margin: 0;
   line-height: 18px;
+  color: #5E6778;
 }
 
 /**** typeography *****/
@@ -26,7 +42,17 @@ a {
   color: #0a317b;
   font-size: 14px;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
 } 
+
+.link {
+  text-decoration: none;
+  color: #5E6778;
+  font-size: 14px;
+  font-weight: bold;
+}
 
 .header-unread {
   text-decoration: none;
@@ -103,7 +129,7 @@ header {
   gap: 8px;
 }
 .notify-title {
-  margin: 0;
+  
 }
 
 /**** notify header *****/
@@ -136,6 +162,11 @@ header {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+
+.card-header {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card-content {
@@ -185,5 +216,32 @@ header {
 }
 
 /**** main section *****/
+
+
+
+/**** media queries tablet *****/
+
+@media screen and (min-width: 768px) {
+  
+  .container {
+    margin: 24px 32px;
+  }
+
+  /**** header *****/
+
+  header {
+    margin-top: 32px;
+  }
+
+  /**** header *****/
+
+
+
+  /**** main section *****/
+
+  .card-body {
+    
+  }
+}
 
 
