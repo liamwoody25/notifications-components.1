@@ -44,7 +44,6 @@ a {
   font-weight: bold;
   display: flex;
   align-items: center;
-  margin-left: 8px;
 } 
 
 .link {
@@ -128,9 +127,6 @@ header {
   align-items: center;
   gap: 8px;
 }
-.notify-title {
-  
-}
 
 /**** notify header *****/
 
@@ -167,6 +163,7 @@ header {
 .card-header {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .card-content {
@@ -222,10 +219,49 @@ header {
 /**** media queries tablet *****/
 
 @media screen and (min-width: 768px) {
+
+  /**** typography *****/
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  /**** typography *****/
+
+
+
+
+  /**** components *****/
+
+  .link {
+    font-size: 16px;
+  }
+
+  .card-link {
+    font-size: 16px;
+  }
   
+  /**** components *****/
+
+
+
+
+  
+  /**** body *****/
+
   .container {
     margin: 24px 32px;
   }
+
+  /**** body *****/
+
+
+
 
   /**** header *****/
 
@@ -239,9 +275,58 @@ header {
 
   /**** main section *****/
 
-  .card-body {
-    
+  .notify-box {
+    width: 84%;
   }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .card-body {
+    line-height: 20px;
+  }
+
+  /**** main section *****/
 }
+
+/**** media queries tablet *****/
+
+
+
+
+
+/**** media queries desktop *****/
+
+ @media screen and (min-width: 1440px) {
+  
+  /**** body *****/
+
+  .container {
+    width: 96%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 24px 32px;
+    margin: 0;
+    box-shadow: 0 2px 9px -6px black;
+  }
+
+  body {
+    margin: 76px 355px;
+    background-color: #F7FAFD;
+  }
+
+  /**** body *****/
+
+  
+
+  /**** header *****/
+
+  header {
+    margin: 0;
+  }
+
+
+ }
 
 
