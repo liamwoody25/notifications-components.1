@@ -35,6 +35,8 @@ p {
 
 a {
   text-decoration: none;
+  transition: transform;
+  transition-duration: 0.4s;
 }
 
 .card-link {
@@ -44,6 +46,8 @@ a {
   font-weight: bold;
   display: flex;
   align-items: center;
+  transition: transform;
+  transition-duration: 0.4s;
 } 
 
 .link {
@@ -51,11 +55,23 @@ a {
   color: #5E6778;
   font-size: 14px;
   font-weight: bold;
+  transition: transform;
+  transition-duration: 0.5s;
 }
 
 .header-unread {
   text-decoration: none;
   color: #5e6778;
+  transition: transform;
+  transition-duration: 0.4s;
+}
+
+.header-unread:hover,
+.card-link:hover,
+.card-title:hover,
+.link:hover {
+  transform: scale(1.1);
+  color: #0a317b;
 }
 
 span {
@@ -190,6 +206,8 @@ header {
   margin-right: 8px;
   font-size: 14px;
   color: #1C202B;
+  transition: transform;
+  transition-duration: 0.4s;
 }
 
 .notify-avatar {
@@ -210,9 +228,17 @@ header {
   border-radius: 5px;
   margin-top: 8px;
   margin-left: -1px;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.notify-box:hover {
+  background-color: #dde7ee;
 }
 
 /**** main section *****/
+
+
 
 
 
@@ -290,6 +316,7 @@ header {
   /**** main section *****/
 }
 
+
 /**** media queries tablet *****/
 
 
@@ -326,6 +353,34 @@ header {
     margin: 0;
   }
 
+  .header-unread {
+    font-size: 16px;
+  }
+
+  /**** header *****/
+
+
+
+  /**** main section *****/
+
+  .top-notifications {
+    display: flex;
+    gap: 15px;
+  }
+
+  .notify-card-marked {
+    padding: 16px 24px;
+  }
+
+  .notify-avatar {
+    width: 60px;
+  }
+
+  .notify-time {
+    font-size: 16px;
+  }
+
+  /**** main section *****/
 
  }
 
